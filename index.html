@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Maria Ahmed | Custom Projects & Designs</title>
+</head>
+<body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<main id="main">
+    <div class="surveyTitleBlock">
+    <h1 id="title">Inquiries for Custom Projects & Designs</h1>
+    <p id="designer">Maria Ahmed</p>
+    <p id="description">Have a custom project in mind? Let's see if we can make it a reality.</p>
+    </div>
+    <form action="" id="survey-form">
+        <div class="surveyForm">
+            <h2 class="surveyHeading">Introductions</h2>
+            <label class="label" id="name-label" for="name">Name. </label>
+            <br>
+            <input class="userInput" type="text" id="name" name="name" placeholder="Enter name" required>
+            <br>
+            <label class="label" id="email-label" for="email">Email. </label>
+            <br>
+            <input class="userInput" type="email" id="email" name="email" placeholder="Enter email address" required>
+            <br>
+            <label class="label" id="phone-label" or="phone">Phone. </label>
+            <br>
+            <input class="userInput" type="tel" name="phone" id="phone" placeholder="Enter phone number (optional)">
+            <br>
+            <label class="label" id="number-label" for="number">Age. </label>
+            <br>
+            <input class="userInput" type="number" id="number" name="number" max="120" min="14" placeholder="Enter your age">
+            <br>
+            <label class="label" for="dropdown">Project size.</label>
+            <br>
+            <select class="userInput" name="dropdown" id="dropdown">
+                <option value="8x12">8" x 12"</option>
+                <option value="10x10">10" x 10"</option>
+                <option value="10x12">10" x 12"</option>
+                <option value="16x20">16" x 20"</option>
+                <option value="20x24">20" x 24"</option>
+                <option value="custom">Custom (specify in comments below)</option>
+                <option value="digital">Digital (specify in comments below)</option>
+            </select>
+            <br>
+            <h2 class="surveyHeading">Craft Details</h2>
+            <div class="colorRadio">
+                <p class="label">Select the preferred color palette.</p><br>
+                <label for="colorChoice1">
+                    <input type="radio" name="colorPalette" id="colorChoice1" value="bw">Black & White
+                </label>
+                <br>
+                <label for="colorChoice2">
+                    <input type="radio" name="colorPalette" id="colorChoice2" value="pastel">Pastels
+                </label>
+                <br>
+                <label for="colorChoice3">
+                    <input type="radio" name="colorPalette" id="colorChoice3" value="wark">Warm
+                </label>
+                <br>
+                <label for="colorChoice4">
+                    <input type="radio" name="colorPalette" id="colorChoice4" value="cool">Cool
+                </label>
+                <br>
+                <label for="colorChoice5">
+                    <input type="radio" name="colorPalette" id="colorChoice5" value="metallic">Metallic
+                </label>
+                <br>
+                <label for="colorChoice6">
+                    <input type="radio" name="colorPalette" id="colorChoice6" value="artistPicks">Artist's choice
+                </label>
+                <br>
+                <label for="colorChoice7">
+                    <input type="radio" name="colorPalette" id="colorChoice7" value="other">Other (specify in comments below)
+                </label>
+            </div>
+            <div class="referralCheckbox">
+                <p class="label">Where did you hear about me?</p><br>
+                <label for="instagram">
+                    <input type="checkbox" name="referral" id="instagram" value="instagram"> On Instagram (@mariaahmed.art)
+                </label>
+                <br>
+                <label for="gallery">
+                    <input type="checkbox" name="referral" id="gallery" value="gallery"> At an art gallery/showing
+                </label>
+                <br>
+                <label for="sawPiece">
+                    <input type="checkbox" name="referral" id="sawPiece" value="sawPiece"> Saw a piece in person
+                </label>
+                <br>
+                <label for="friend">
+                    <input type="checkbox" name="referral" id="friend" value="friend"> From a friend/family
+                </label>
+                <br>
+                <label for="ad">
+                    <input type="checkbox" name="referral" id="ad" value="ad"> On an advertisement
+                </label>
+                <br>
+                <label for="other">
+                    <input type="checkbox" name="referral" id="other" value="other"> Other
+                </label>
+            </div>
+            <div class="comments">
+                <label class="label" for="comments">Tell me about your project! Don't forget to add comments for custom details. </label><br>
+                <textarea name="comments" id="comments" cols="50" rows="4" placeholder="Is it for a specific person or space? Custom sizes, color palettes, and digital projects? Add details here."></textarea>
+            </div>
+        </div>
+        <div class="submitButton">
+            <button type="submit" id="submit">Send</button>
+        </div>
+    </form>
+</main>
+
+</body>
+</html>

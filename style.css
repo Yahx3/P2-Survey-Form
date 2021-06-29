@@ -1,0 +1,71 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 1.6rem;
+    background-color: #956566;
+    background-image: url("mariaahmed.art-13022021-0001.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.surveyTitleBlock {
+    padding: 13rem 0 5.5rem 0;
+    margin: 0;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 14%, rgba(0,0,0,0) 33%);
+    color: white;
+}
+
+#title {
+    font-size: 3.6rem;
+    text-align: center;
+    margin: 0;
+}
+
+#designer {
+    margin: 0.5rem 0 3.2rem 0;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+}
+
+#survey-form {
+    background: linear-gradient(162deg, rgba(255,255,255,0.72) 73%, rgba(255,255,255,1) 100%);
+    margin: 0rem auto;
+    padding: 0 3rem 3rem;
+    width: 80%;
+    max-width: 80.0rem;
+    border: 0px hidden rgba(0, 0, 0, 0);
+    border-radius: 0.4rem;
+    box-shadow: 0 0 50px 0 rgba(255, 255, 255, 1);
+}
+
+.surveyHeading {
+    margin: 0;
+    padding: 3rem 0 2rem;
+    font-size: 2.2rem;
+}
+
+.label {
+    display:inline-block;
+    margin: 1.6rem 0 0.8rem;
+}
+
+.userInput {
+    width: 250px;
+}
