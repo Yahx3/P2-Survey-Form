@@ -1,5 +1,12 @@
 This is my second webpage. It's created as part of the freecodecamp curriculum.
-View my [final project on codepen](), or using the files in this repo.
+View my [final project on codepen](https://codepen.io/yahx/full/vYxogXj), or using the files in this repo.
+
+Here are somethings I am aware I should have incorporated, but did not:
+- Responsive design for mobile and other devices
+- Fallback support for different browsers
+
+Note that in the codepen link, the background image may fail to load. This issue is unique to codepen. For that reason, it is recommended to download the files and open the html.
+
 
 Below are the instructions provided:
 # Responsive Web Design Projects - Build a Survey Form
